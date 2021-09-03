@@ -1,14 +1,7 @@
-.container-fluid{
-    width: 100%;
-    height: 570px;
-    display: grid;
-    justify-items: center;
-    margin: none;
-    padding-left: 0px;
-    padding-right: 0px;
-    position:relative;
-    /* 70x is where the container meets the one above it*/
-    top: 140px;
+.container{
+    color: white;
+    text-align: center;
+    position: relative;
 }
 .prodPic1{
     height: 570px;
@@ -16,9 +9,10 @@
 .prodOverlayContainer{
     z-index: 1;
     position: absolute;
-    top:430px;
-    left:205px;
+    top:75%;
+    left:15px;
     height: 90px;
+    text-align: left;
 }
 .bagheader{
     color: white;

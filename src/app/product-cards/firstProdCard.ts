@@ -6,5 +6,6 @@ import { Component, Type } from "@angular/core";
     styleUrls: ['./firstProdCard.css']
 })
 export class ProductCard {
+    
 
 }

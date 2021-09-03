@@ -7,4 +7,7 @@ import { Component, Type } from "@angular/core";
 })
 export class MainVideo {
 
+    vidHeading:string ="MEN'S FALL 2021 CAPSULE";
+    button1:string="SHOP NOW";
+    button2:string="DISCOVER THE CAMPAIGN"
 }

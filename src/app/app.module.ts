@@ -7,6 +7,7 @@ import { MainVideo } from './Main_Video_Homepage/Main-video';
 import { SecondTopNavBarComponent } from './header/2nd-top-nav-bar-component';
 import { TopNavBarComponent } from './header/top-nav-bar.component';
 import { ProductCard } from './product-cards/firstProdCard';
+import { MainLayout } from './Layout/main-layout';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ProductCard } from './product-cards/firstProdCard';
     TopNavBarComponent,
     SecondTopNavBarComponent,
     MainVideo,
-    ProductCard
+    ProductCard,
+    MainLayout
   ],
   imports: [
     BrowserModule

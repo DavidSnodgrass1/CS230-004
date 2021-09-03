@@ -4,11 +4,8 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-dispatch-layout',
   templateUrl: './dispatch-layout.component.html',
 })
-export class DispatchLayoutComponent implements OnInit {
+export class DispatchLayoutComponent {
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+  
 
 }

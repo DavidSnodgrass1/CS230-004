@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { DispatchLayoutComponent } from './Layout/Dispatch-Layout-Folder/dispatch-layout.component';
-import { HelpLayoutComponent } from './Layout/help-layout.component';
-import { HomepageLayoutComponent } from './Layout/homepage-layout.component';
+import { HelpLayoutComponent } from './Layout/Help-Layout-Folder/help-layout.component';
+import { HomepageLayoutComponent } from './Layout/Homepage-Layout-Folder/homepage-layout.component';
 import { SustainLayoutComponent } from './Layout/sustain-layout.component';
 
 

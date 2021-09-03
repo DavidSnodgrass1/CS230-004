@@ -10,8 +10,26 @@
     /* 70x is where the container meets the one above it*/
     top: 140px;
 }
-.btn1{
-    border-color: black;
-    height: 70px;
-    width: 200px;
+.prodPic1{
+    height: 570px;
+}
+.prodOverlayContainer{
+    z-index: 1;
+    position: absolute;
+    top:430px;
+    left:205px;
+    height: 90px;
+}
+.bagheader{
+    color: white;
+}
+.shopNowBtn{
+    width: 240px;
+    height: 40px;
+    border-radius: 0%;
+    background-color: white;
+    font-size: 12px;
+}
+.shopNowBtn:hover{
+    opacity: 50%;
 }

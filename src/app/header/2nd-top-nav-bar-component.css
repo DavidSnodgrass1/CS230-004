@@ -1,0 +1,36 @@
+.nav{
+    display: flex;
+    vertical-align: middle;
+}
+
+
+
+/* BEGINNING OF "NEW" DROPDOWN */
+.dropdownNew{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+.dropdown-menu{
+    position: absolute;
+    width: 100%;
+    height:640px;
+    left:0px;
+    border: black;
+}
+.newDrop2ndNav{
+    position: absolute;
+    left: 76mm;
+    top: 9mm;
+    font-size: large;
+    background-color: transparent;
+    border: transparent;
+}
+.container1{
+    width:120px;
+    height: 640px;
+    position: absolute;
+}
+/* END OF "NEW" DROPDOWN */

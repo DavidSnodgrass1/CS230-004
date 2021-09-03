@@ -2,8 +2,10 @@
     display: flex;
     vertical-align: middle;
 }
-
-
+.d-flex{
+    position: absolute;
+    right: 70px;
+}
 
 /* BEGINNING OF "NEW" DROPDOWN */
 .dropdownNew{
@@ -20,7 +22,7 @@
     left:0px;
     border: black;
 }
-.newDrop2ndNav{
+.newDropbtn{
     position: absolute;
     left: 76mm;
     top: 9mm;
@@ -28,9 +30,229 @@
     background-color: transparent;
     border: transparent;
 }
-.container1{
-    width:120px;
+.container3picture{
+    width:600px;
     height: 640px;
     position: absolute;
+    top: 0px;
+    right:0px;
+}
+.newdroppic{
+    height: 640px;
+    width: 600px;
+    position: absolute;
+    top: 0px;
+}
+.ulitem{
+    margin-top: 20px;
+    font-size:medium;
+}
+.ulitem:hover{
+    opacity:60%
+}
+.liitem{
+    color: black;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.graybackgroundnew{
+    position:absolute;
+    height:640px;
+    width:410px;
+    top: 0;
+    left:370px;
+    background-color: lightgray;
+    
 }
 /* END OF "NEW" DROPDOWN */
+
+/* BEGINNING OF "WOMEN" DROPDOWN */
+.dropdownWomen{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+.dropdown-menu{
+    position: absolute;
+    width: 100%;
+    height:640px;
+    left:0px;
+    border: black;
+}
+.womenDropbtn{
+    position: absolute;
+    left: 96mm;
+    top: 9mm;
+    font-size: large;
+    background-color: transparent;
+    border: transparent;
+}
+.container3picture{
+    width:600px;
+    height: 640px;
+    position: absolute;
+    top: 0px;
+    right:0px;
+}
+.womendroppic{
+    height: 640px;
+    width: 600px;
+    position: absolute;
+    top: 0px;
+}
+.ulitem{
+    margin-top: 20px;
+    font-size:medium;
+}
+.ulitem:hover{
+    opacity:60%
+}
+.liitem{
+    color: black;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.graybackground{
+    position:absolute;
+    height:640px;
+    width:410px;
+    top: 0;
+    left:370px;
+    background-color: lightgray;
+    
+}
+/* END OF "WOMEN" DROPDOWN */
+
+/* BEGINNING OF "MEN" DROPDOWN */
+.dropdownMen{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+.dropdown-menu{
+    position: absolute;
+    width: 100%;
+    height:640px;
+    left:0px;
+    border: black;
+}
+.menDropbtn{
+    position: absolute;
+    left: 125mm;
+    top: 9mm;
+    font-size: large;
+    background-color: transparent;
+    border: transparent;
+}
+.container3picture{
+    width:600px;
+    height: 640px;
+    position: absolute;
+    top: 0px;
+    right:0px;
+}
+.mendroppic{
+    height: 640px;
+    width: 600px;
+    position: absolute;
+    top: 0px;
+}
+.ulitem{
+    margin-top: 20px;
+    font-size:medium;
+}
+.ulitem:hover{
+    opacity:60%
+}
+.liitem{
+    color: black;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.graybackground{
+    position:absolute;
+    height:640px;
+    width:410px;
+    top: 0;
+    left:370px;
+    background-color: lightgray;
+    
+}
+/* END OF "MEN" DROPDOWN */
+
+/* BEGINNING OF "ART OF LIVIN" DROPDOWN */
+.dropdowArt{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+.dropdown-menu{
+    position: absolute;
+    width: 100%;
+    height:640px;
+    left:0px;
+    border: black;
+}
+.artDropbtn{
+    position: absolute;
+    left: 148mm;
+    top: 9mm;
+    font-size: large;
+    background-color: transparent;
+    border: transparent;
+}
+.container3picture{
+    width:600px;
+    height: 640px;
+    position: absolute;
+    top: 0px;
+    right:0px;
+}
+.artdroppic{
+    height: 640px;
+    width: 600px;
+    position: absolute;
+    top: 0px;
+}
+.ulitem{
+    margin-top: 20px;
+    font-size:medium;
+}
+.ulitem:hover{
+    opacity:60%
+}
+.liitem{
+    color: black;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.graybackground{
+    position:absolute;
+    height:640px;
+    width:410px;
+    top: 0;
+    left:370px;
+    background-color: lightgray;
+    
+}
+/* END OF "ART OF LIVING" DROPDOWN */
+
+.Magnavbtn{
+    position: absolute;
+    left: 193mm;
+    top: 9mm;
+    font-size: large;
+    color: black;
+    border: transparent;
+    background-color: transparent;
+}
+.buttonLink{
+    text-decoration: none;
+    color: black;
+}

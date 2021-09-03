@@ -12,6 +12,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { DispatchLayoutComponent } from './Layout/dispatch-layout.component';
 import { HomepageLayoutComponent } from './Layout/homepage-layout.component';
 import { NavigationComponent } from './header/navigation.component';
+import { HelpLayoutComponent } from './Layout/help-layout.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { NavigationComponent } from './header/navigation.component';
     DispatchLayoutComponent,
     HomepageLayoutComponent,
     NavigationComponent,
+    HelpLayoutComponent,
   ],
   imports: [
     BrowserModule,

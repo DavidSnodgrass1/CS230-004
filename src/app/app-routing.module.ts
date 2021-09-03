@@ -12,7 +12,8 @@ const routes: Routes = [
   { path: 'dispatch', component: DispatchLayoutComponent },
   { path: 'start-the-journey', component: HelpLayoutComponent},
   { path: 'sustainability', component: SustainLayoutComponent},
-  { path: 'stores', component: StoresLayoutComponent}
+  { path: 'stores', component: StoresLayoutComponent},
+  { path: '', redirectTo:'/home', pathMatch: 'full'}
 ];
 
 @NgModule({

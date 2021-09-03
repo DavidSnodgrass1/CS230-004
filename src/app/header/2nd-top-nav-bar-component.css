@@ -244,9 +244,8 @@
 /* END OF "ART OF LIVING" DROPDOWN */
 
 .Magnavbtn{
-    position: absolute;
-    left: 193mm;
-    top: 9mm;
+    margin-left: 125mm;
+    margin-top: 5px;
     font-size: large;
     color: black;
     border: transparent;
@@ -255,4 +254,10 @@
 .buttonLink{
     text-decoration: none;
     color: black;
+    z-index: 1;
+}
+.d-flex{
+    width: fit-content;
+    position: absolute;
+    right: 0px;
 }

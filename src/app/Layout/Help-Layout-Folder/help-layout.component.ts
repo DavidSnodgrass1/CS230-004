@@ -4,11 +4,8 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-help-layout',
   templateUrl: './help-layout.component.html',
 })
-export class HelpLayoutComponent implements OnInit {
+export class HelpLayoutComponent {
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+  
 
 }

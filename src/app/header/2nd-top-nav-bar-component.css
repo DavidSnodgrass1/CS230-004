@@ -55,14 +55,14 @@
     margin-left: 40px;
     text-decoration: none;
 }
-.graybackgroundnew{
+.graybackground{
     position:absolute;
     height:640px;
     width:410px;
     top: 0;
     left:370px;
     background-color: lightgray;
-    
+    opacity: 40%;
 }
 /* END OF "NEW" DROPDOWN */
 
@@ -74,13 +74,6 @@
     top: 0px;
     bottom: 0px;
 }
-.dropdown-menu{
-    position: absolute;
-    width: 100%;
-    height:640px;
-    left:0px;
-    border: black;
-}
 .womenDropbtn{
     position: absolute;
     left: 96mm;
@@ -89,39 +82,11 @@
     background-color: transparent;
     border: transparent;
 }
-.container3picture{
-    width:600px;
-    height: 640px;
-    position: absolute;
-    top: 0px;
-    right:0px;
-}
 .womendroppic{
     height: 640px;
     width: 600px;
     position: absolute;
     top: 0px;
-}
-.ulitem{
-    margin-top: 20px;
-    font-size:medium;
-}
-.ulitem:hover{
-    opacity:60%
-}
-.liitem{
-    color: black;
-    margin-left: 40px;
-    text-decoration: none;
-}
-.graybackground{
-    position:absolute;
-    height:640px;
-    width:410px;
-    top: 0;
-    left:370px;
-    background-color: lightgray;
-    
 }
 /* END OF "WOMEN" DROPDOWN */
 
@@ -133,13 +98,6 @@
     top: 0px;
     bottom: 0px;
 }
-.dropdown-menu{
-    position: absolute;
-    width: 100%;
-    height:640px;
-    left:0px;
-    border: black;
-}
 .menDropbtn{
     position: absolute;
     left: 125mm;
@@ -148,39 +106,11 @@
     background-color: transparent;
     border: transparent;
 }
-.container3picture{
-    width:600px;
-    height: 640px;
-    position: absolute;
-    top: 0px;
-    right:0px;
-}
 .mendroppic{
     height: 640px;
     width: 600px;
     position: absolute;
     top: 0px;
-}
-.ulitem{
-    margin-top: 20px;
-    font-size:medium;
-}
-.ulitem:hover{
-    opacity:60%
-}
-.liitem{
-    color: black;
-    margin-left: 40px;
-    text-decoration: none;
-}
-.graybackground{
-    position:absolute;
-    height:640px;
-    width:410px;
-    top: 0;
-    left:370px;
-    background-color: lightgray;
-    
 }
 /* END OF "MEN" DROPDOWN */
 
@@ -192,13 +122,6 @@
     top: 0px;
     bottom: 0px;
 }
-.dropdown-menu{
-    position: absolute;
-    width: 100%;
-    height:640px;
-    left:0px;
-    border: black;
-}
 .artDropbtn{
     position: absolute;
     left: 148mm;
@@ -207,39 +130,11 @@
     background-color: transparent;
     border: transparent;
 }
-.container3picture{
-    width:600px;
-    height: 640px;
-    position: absolute;
-    top: 0px;
-    right:0px;
-}
 .artdroppic{
     height: 640px;
     width: 600px;
     position: absolute;
     top: 0px;
-}
-.ulitem{
-    margin-top: 20px;
-    font-size:medium;
-}
-.ulitem:hover{
-    opacity:60%
-}
-.liitem{
-    color: black;
-    margin-left: 40px;
-    text-decoration: none;
-}
-.graybackground{
-    position:absolute;
-    height:640px;
-    width:410px;
-    top: 0;
-    left:370px;
-    background-color: lightgray;
-    
 }
 /* END OF "ART OF LIVING" DROPDOWN */
 
@@ -259,5 +154,5 @@
 .d-flex{
     width: fit-content;
     position: absolute;
-    right: 0px;
+    right: 15px;
 }

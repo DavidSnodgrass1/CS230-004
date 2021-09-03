@@ -11,7 +11,7 @@ import { DispatchLayoutComponent } from './Layout/Dispatch-Layout-Folder/dispatc
 import { HomepageLayoutComponent } from './Layout/Homepage-Layout-Folder/homepage-layout.component';
 import { NavigationComponent } from './header/navigation.component';
 import { HelpLayoutComponent } from './Layout/Help-Layout-Folder/help-layout.component';
-import { SustainLayoutComponent } from './Layout/sustain-layout.component';
+import { SustainLayoutComponent } from './Layout/Sustain-Layout-Folder/sustain-layout.component';
 
 @NgModule({
   declarations: [

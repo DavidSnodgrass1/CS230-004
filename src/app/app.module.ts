@@ -12,6 +12,7 @@ import { HomepageLayoutComponent } from './Layout/Homepage-Layout-Folder/homepag
 import { NavigationComponent } from './header/navigation.component';
 import { HelpLayoutComponent } from './Layout/Help-Layout-Folder/help-layout.component';
 import { SustainLayoutComponent } from './Layout/Sustain-Layout-Folder/sustain-layout.component';
+import { StoresLayoutComponent } from './Layout/Stores-Layout-Folder/stores-layout.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { SustainLayoutComponent } from './Layout/Sustain-Layout-Folder/sustain-l
     NavigationComponent,
     HelpLayoutComponent,
     SustainLayoutComponent,
+    StoresLayoutComponent,
   ],
   imports: [
     BrowserModule,

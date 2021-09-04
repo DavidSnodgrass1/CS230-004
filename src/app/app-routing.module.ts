@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { DispatchLayoutComponent } from './Layout/Dispatch-Layout-Folder/dispatch-layout.component';
 import { HelpLayoutComponent } from './Layout/Help-Layout-Folder/help-layout.component';
 import { HomepageLayoutComponent } from './Layout/Homepage-Layout-Folder/homepage-layout.component';
+import { NewForMenLayoutComponent } from './Layout/New-ForMen-Layout/new-for-men-layout.component';
 import { StoresLayoutComponent } from './Layout/Stores-Layout-Folder/stores-layout.component';
 import { SustainLayoutComponent } from './Layout/Sustain-Layout-Folder/sustain-layout.component';
 
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'start-the-journey', component: HelpLayoutComponent},
   { path: 'sustainability', component: SustainLayoutComponent},
   { path: 'stores', component: StoresLayoutComponent},
+  { path: 'new/men', component : NewForMenLayoutComponent},
   { path: '', redirectTo:'/home', pathMatch: 'full'}
 ];
 

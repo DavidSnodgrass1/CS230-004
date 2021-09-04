@@ -9,12 +9,12 @@ import { SustainLayoutComponent } from './Layout/Sustain-Layout-Folder/sustain-l
 
 
 const routes: Routes = [
-  { path: 'home', component:  HomepageLayoutComponent},
+  { path: 'home', component: HomepageLayoutComponent},
   { path: 'dispatch', component: DispatchLayoutComponent },
   { path: 'start-the-journey', component: HelpLayoutComponent},
   { path: 'sustainability', component: SustainLayoutComponent},
   { path: 'stores', component: StoresLayoutComponent},
-  { path: 'new/men', component : NewForMenLayoutComponent},
+  { path: 'newForMen', component: NewForMenLayoutComponent},
   { path: '', redirectTo:'/home', pathMatch: 'full'}
 ];
 

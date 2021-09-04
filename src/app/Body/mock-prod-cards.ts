@@ -1,32 +1,32 @@
 export const mock_prod_cards = [
     {
-        name: "1",
-        price: "1c",
-        imagePath: ""
+        name: "AVENUE SLING BAG",
+        price: "$2,150.00",
+        imagePath: "/assets/New-Men-Prod-Pics/firstPicNewMens.png"
     },
     {
-        name: "2",
-        price: "2c",
-        imagePath: ""
+        name: "MULTIPLE WALLET",
+        price: "$635.00",
+        imagePath: "/assets/New-Men-Prod-Pics/2ndpicNewMens.png"
     },
     {
-        name: "3",
-        price: "3c",
-        imagePath: ""
+        name: "SLIM BRIEFCASE",
+        price: "$2,920.00",
+        imagePath: "/assets/New-Men-Prod-Pics/3rdpicNewMens.png"
     },
     {
-        name: "4",
-        price: "4c",
-        imagePath: ""
+        name: "POCKET ORGANIZER",
+        price: "$535.00",
+        imagePath: "/assets/New-Men-Prod-Pics/4thpicNewMens.png"
     },
     {
-        name: "5",
-        price: "5c",
-        imagePath: ""
+        name: "NEW FLAP MESSENGER",
+        price: "$2,150.00",
+        imagePath: "/assets/New-Men-Prod-Pics/5thpicNewMens.png"
     },
     {
-        name: "6",
-        price: "6c",
-        imagePath: ""
+        name: "BRAZZA WALLET",
+        price: "$870.00",
+        imagePath: "/assets/New-Men-Prod-Pics/6thpicNewMens.png"
     }
 ]

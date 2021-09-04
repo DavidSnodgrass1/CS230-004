@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { mock_prod_cards } from 'src/app/Body/mock-prod-cards';
-import { Product } from 'src/app/Body/product.model';
+import { mock_prod_cards } from 'src/app/Body/Prod-Card-Folder/mock-prod-cards';
+import { Product } from 'src/app/Body/Prod-Card-Folder/product.model';
 
 @Component({
   selector: 'app-new-formen-layout',

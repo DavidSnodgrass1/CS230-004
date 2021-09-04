@@ -14,7 +14,7 @@ import { HelpLayoutComponent } from './Layout/Help-Layout-Folder/help-layout.com
 import { SustainLayoutComponent } from './Layout/Sustain-Layout-Folder/sustain-layout.component';
 import { StoresLayoutComponent } from './Layout/Stores-Layout-Folder/stores-layout.component';
 import { NewForMenLayoutComponent } from './Layout/New-ForMen-Layout/new-for-men-layout.component';
-import { ProductCardComponent } from './Body/product-card.component';
+import { ProductCardComponent } from './Body/Prod-Card-Folder/product-card.component';
 
 @NgModule({
   declarations: [

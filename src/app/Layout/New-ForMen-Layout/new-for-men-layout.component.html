@@ -9,8 +9,10 @@
         placholder
     </div>
 </div>
-<div class="row">
-    <app-prod-card></app-prod-card>
+<div class="row justify-content-center m-3">
+    <div class = "col d-flex justify-content-center gy-5" *ngFor= "let product of cards">
+    <app-prod-card name= {{product.name}} price= {{product.price}} imagePath= {{product.imagePath}}></app-prod-card>
+    </div>
 </div>
 
 

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { mock_prod_cards } from 'src/app/Body/mock-prod-cards';
 import { Product } from 'src/app/Body/product.model';
 
 @Component({
@@ -8,6 +9,12 @@ import { Product } from 'src/app/Body/product.model';
 })
 export class NewForMenLayoutComponent {
   cards:Product[] = [];
+
+  constructor(){
+    for (var product of mock_prod_cards){
+      this.cards.push(new Product(product));
+    }
+  }
   
 
 }

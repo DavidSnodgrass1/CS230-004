@@ -15,6 +15,8 @@ import { SustainLayoutComponent } from './Layout/Sustain-Layout-Folder/sustain-l
 import { StoresLayoutComponent } from './Layout/Stores-Layout-Folder/stores-layout.component';
 import { NewForMenLayoutComponent } from './Layout/New-ForMen-Layout/new-for-men-layout.component';
 import { ProductCardComponent } from './Body/Prod-Card-Folder/product-card.component';
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './header/user-info.component';
 
 @NgModule({
   declarations: [
@@ -32,10 +34,13 @@ import { ProductCardComponent } from './Body/Prod-Card-Folder/product-card.compo
     StoresLayoutComponent,
     NewForMenLayoutComponent,
     ProductCardComponent,
+    UserInfoComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

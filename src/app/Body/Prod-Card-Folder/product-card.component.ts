@@ -9,6 +9,4 @@ export class ProductCardComponent  {
   @Input() name!:string;
   @Input() price!:string;
   @Input() imagePath!:string;
-
-
 }

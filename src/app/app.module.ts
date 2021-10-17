@@ -17,6 +17,9 @@ import { NewForMenLayoutComponent } from './Layout/New-ForMen-Layout/new-for-men
 import { ProductCardComponent } from './Body/Prod-Card-Folder/product-card.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserInfoComponent } from './header/user-info-folder/user-info.component';
+import { CreateAccountLayoutComponent } from './Layout/Create-Account-Layout-Folder/create-account-layout.component';
+import { FormsModule } from '@angular/forms';
+import { AccountInfoLayoutComponent } from './Layout/Account-Info-Folder/account-info-layout.component';
 
 @NgModule({
   declarations: [
@@ -35,12 +38,14 @@ import { UserInfoComponent } from './header/user-info-folder/user-info.component
     NewForMenLayoutComponent,
     ProductCardComponent,
     UserInfoComponent,
+    CreateAccountLayoutComponent,
+    AccountInfoLayoutComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
-    
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

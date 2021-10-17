@@ -1,0 +1,59 @@
+<app-navigation></app-navigation>
+<div class="container-fluid px-4">
+    <div class="row py-3 px-0">
+        <h1 class="head px-0">ACCOUNT</h1>
+    </div>
+    <div class="row">
+        <div class="container-fluid border border-3 border-dark" id="rowm">
+            <div class="row border-bottom border-secondary border-3" id=rowI>
+                <h3 class="boxhead py-1 my-0">Current Account Information:</h3>
+            </div>
+            <div class="row border-bottom border-secondary border-2 py-2" *ngFor="let name of names; let i = index">
+                <h5 class="py-0 my-0">{{name}}: {{values[i]}}</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="row pt-5 px-0 pb-1">
+        <h1 class="px-0">EDIT ACCOUNT INFORMATION</h1>
+    </div>
+
+    <div class="row">
+        <!-- Creating the form -->
+        <div class="col pt-3 px-0">
+            <form class="form w-100" #postForm="ngForm" (ngSubmit)="onEditAccount(postForm.value)">
+                <!-- Creating the first name input  -->
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text bg-black text-white" id="addon-wrapping">
+                        FIRST NAME
+                    </span>
+                    <input type="text" class="form-control" aria-describedby="addon-wrapping" ngModel name="FirstName">
+                </div>
+                <!-- creating the last name input  -->
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text bg-black text-white" id="addon-wrapping">
+                       LAST NAME
+                    </span>
+                    <input type="text" class="form-control" aria-describedby="addon-wrapping" ngModel name="LastName">
+                </div>
+                <!-- creating the email input -->
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text bg-black text-white" id="addon-wrapping">
+                       EMAIL
+                    </span>
+                    <input type="text" class="form-control" aria-describedby="addon-wrapping" ngModel name="Email">
+                </div>
+                <!-- creating a space between the button and the form -->
+                <div class="w-100"> 
+                    <p></p>
+                </div>
+                <!-- making the button -->
+                <button class= "button bg-black text-white w-100" type="submit">
+                    <h6 class="p-2 m-0">UPDATE MY ACCOUNT INFORMATION</h6>
+                </button>
+            </form>
+    </div>
+
+
+    <!-- end of the container -->
+</div>

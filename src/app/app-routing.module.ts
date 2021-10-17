@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AccountInfoLayoutComponent } from './Layout/Account-Info-Folder/account-info-layout.component';
+import { CreateAccountLayoutComponent } from './Layout/Create-Account-Layout-Folder/create-account-layout.component';
 import { DispatchLayoutComponent } from './Layout/Dispatch-Layout-Folder/dispatch-layout.component';
 import { HelpLayoutComponent } from './Layout/Help-Layout-Folder/help-layout.component';
 import { HomepageLayoutComponent } from './Layout/Homepage-Layout-Folder/homepage-layout.component';
@@ -15,6 +17,8 @@ const routes: Routes = [
   { path: 'sustainability', component: SustainLayoutComponent},
   { path: 'stores', component: StoresLayoutComponent},
   { path: 'new/men', component : NewForMenLayoutComponent},
+  { path: 'create-account', component : CreateAccountLayoutComponent},
+  { path: 'account-info', component : AccountInfoLayoutComponent},
   { path: '', redirectTo:'/home', pathMatch: 'full'}
 ];
 

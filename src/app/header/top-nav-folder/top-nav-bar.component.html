@@ -78,6 +78,7 @@
           <!-- Creating the login and password boxes used in the off canvas -->
           <form class="identificationOffCanvasUser/Pass" form style="margin-top: 30px;">
             <!-- Username/email -->
+
             <div class="loginBox">
               <label for="usernameInput" class="form-label" label style="margin-left: 30px;">Login*</label>
               <input type="email" class="form-control" input style="margin-left: 30px;" id="userEmail"
@@ -86,11 +87,11 @@
             <!-- Password -->
             <div class="passwordBox">
               <label for="userPassword" class="form-label" label
-                style="margin-top: 20px; margin-left: 30px;">Password*</label>
+                style="margin-top: 20px; margin-left: 30px; size: 50%;">Password*</label>
               <input type="password" class="form-control" input style="margin-left: 30px;" id="userPassword">
             </div>
             <!-- Sign In Button -->
-            <button type="submit" class="d-grid gap-2 col-6 mx-auto btn-dark" button
+            <button type="submit" class="d-grid gap-2 col-6 mx-auto btn-dark" routerLink= "/account-info" button
               style="margin-top: 30px; margin-bottom: 30px;">Sign In</button>
           </form>
         </div>
@@ -100,7 +101,7 @@
 
           <body class="lowerIdentOffCanvasBody" body style="margin-top: 15px; margin-left: 30px;"> Enjoy added benefits
             and richer experience by creating a personal account.</body>
-          <button type="button" data-bs-toggle="offcanvas" href="http://localhost:4200/createAccount"
+          <button type="button" routerLink="/create-account" data-bs-toggle="offcanvas" href="http://localhost:4200/createAccount"
             class="d-grid gap-2 col-6 mx-auto btn-dark" button style="margin-top: 30px; margin-bottom: 30px;">Create My
             LV Account</button>
         </div>

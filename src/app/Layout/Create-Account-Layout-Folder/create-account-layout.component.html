@@ -1,0 +1,48 @@
+<app-navigation></app-navigation>
+<div class="container-fluid">
+    <div class="row">
+        <h1 class="header border border-secondary py-3">
+            CREATE NEW ACCOUNT
+        </h1>
+    </div>
+    <!-- Creating the heading for the account info -->
+    <div class="row pt-4">
+        <div class="row">
+            <h3> ACCOUNT INFORMATION</h3>
+        </div>
+        <!-- Creating the form -->
+        <div class="col pt-3">
+            <form class="form w-100" #postForm="ngForm" (ngSubmit)="onCreateAccount(postForm.value)">
+                <!-- Creating the first name input  -->
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text bg-black text-white" id="addon-wrapping">
+                        FIRST NAME
+                    </span>
+                    <input type="text" class="form-control" aria-describedby="addon-wrapping" ngModel name="FirstName">
+                </div>
+                <!-- creating the last name input  -->
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text bg-black text-white" id="addon-wrapping">
+                       LAST NAME
+                    </span>
+                    <input type="text" class="form-control" aria-describedby="addon-wrapping" ngModel name="LastName">
+                </div>
+                <!-- creating the email input -->
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text bg-black text-white" id="addon-wrapping">
+                       EMAIL
+                    </span>
+                    <input type="text" class="form-control" aria-describedby="addon-wrapping" ngModel name="Email">
+                </div>
+                <!-- creating a space between the button and the form -->
+                <div class="w-100"> 
+                    <p></p>
+                </div>
+                <!-- making the button -->
+                <button class= "button bg-black text-white w-100" type="submit">
+                    <h6 class="p-2 m-0">CREATE MY ACCOUNT</h6>
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

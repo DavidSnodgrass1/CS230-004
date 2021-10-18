@@ -20,6 +20,8 @@ import { UserInfoComponent } from './header/user-info-folder/user-info.component
 import { CreateAccountLayoutComponent } from './Layout/Create-Account-Layout-Folder/create-account-layout.component';
 import { FormsModule } from '@angular/forms';
 import { AccountInfoLayoutComponent } from './Layout/Account-Info-Folder/account-info-layout.component';
+import { AngularFireModule } from '@angular/fire/compat';
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [
@@ -45,7 +47,8 @@ import { AccountInfoLayoutComponent } from './Layout/Account-Info-Folder/account
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    AngularFireModule.initializeApp(environment.firebase, 'lv-app'),
   ],
   providers: [],
   bootstrap: [AppComponent]

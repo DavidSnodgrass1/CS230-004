@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DatabaseService } from 'src/app/Body/database.service';
 import { AccountInfo } from './account-info.model';
 import { CreateAccountService } from './create-account-service';
 
@@ -9,7 +10,7 @@ import { CreateAccountService } from './create-account-service';
 })
 export class CreateAccountLayoutComponent implements OnInit {
 
-  constructor(private infoService: CreateAccountService) { }
+  constructor(private infoService: CreateAccountService, private dbService:DatabaseService) { }
 
   ngOnInit(): void {
   }

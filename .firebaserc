@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "lv-app-fac1a": {
+      "hosting": {
+        "spotify": [
+          "lv-app-fac1a"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "lv-app-fac1a"
+  }
+}

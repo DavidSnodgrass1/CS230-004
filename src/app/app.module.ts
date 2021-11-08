@@ -22,6 +22,7 @@ import { FormsModule } from '@angular/forms';
 import { AccountInfoLayoutComponent } from './Layout/Account-Info-Folder/account-info-layout.component';
 import { AngularFireModule } from '@angular/fire/compat';
 import { environment } from 'src/environments/environment';
+import { AuthComponent } from './auth/auth.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { environment } from 'src/environments/environment';
     UserInfoComponent,
     CreateAccountLayoutComponent,
     AccountInfoLayoutComponent,
+    AuthComponent,
   ],
   imports: [
     BrowserModule,

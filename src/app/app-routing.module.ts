@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AuthComponent } from './auth/auth.component';
 import { AccountInfoLayoutComponent } from './Layout/Account-Info-Folder/account-info-layout.component';
 import { CreateAccountLayoutComponent } from './Layout/Create-Account-Layout-Folder/create-account-layout.component';
 import { DispatchLayoutComponent } from './Layout/Dispatch-Layout-Folder/dispatch-layout.component';
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: 'new/men', component : NewForMenLayoutComponent},
   { path: 'create-account', component : CreateAccountLayoutComponent},
   { path: 'account-info', component : AccountInfoLayoutComponent},
+  { path: 'auth', component : AuthComponent},
   { path: '', redirectTo:'/home', pathMatch: 'full'}
 ];
 

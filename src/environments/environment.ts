@@ -4,7 +4,7 @@
 
 export const environment = {
   firebase: {
-    apiKey: "AIzaSyAZr2LytOVuNOIhPZTVjZ6ZiFxT0IYZ63o",
+    apiKey: 'AIzaSyAZr2LytOVuNOIhPZTVjZ6ZiFxT0IYZ63o',
     authDomain: "lv-app-fac1a.firebaseapp.com",
     databaseURL: "https://lv-app-fac1a-default-rtdb.firebaseio.com",
     projectId: "lv-app-fac1a",
